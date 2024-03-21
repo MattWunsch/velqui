@@ -1,0 +1,28 @@
+{
+  "name": "velqui",
+  "description": "Mike's shared semantic release config for JS/TS libraries",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MattWunsch/velqui.git"
+  },
+  "author": "JuniorDooley",
+  "license": "MIT",
+  "dependencies": {
+    "@semantic-release/changelog": "^3.0.0",
+    "@semantic-release/error": "^2.2.0",
+    "@semantic-release/exec": "^3.0.2",
+    "@semantic-release/git": "^7.0.5",
+    "@semantic-release/github": "^5.0.2",
+    "semantic-release": "^15.9.9",
+    "travis-deploy-once": "^5.0.9"
+  },
+  "publishConfig": {
+    "access": "public",
+    "tag": "latest"
+  },
+  "devDependencies": {
+    "@mike-north/js-lib-renovate-config": "^0.0.1"
+  }
+}
